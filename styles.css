@@ -1,0 +1,115 @@
+
+html, body {
+      margin: 0;
+      padding: 0;
+}
+	
+
+.jumbotron {
+	position:relative!important;
+	background-color: transparent!important;
+	padding:0!important;
+	margin:0!important;
+}
+
+.col-md-4 img {
+	align-self: center;
+}
+.logo.col-md-4 {
+	margin:20px!important;
+	display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center; 
+}
+
+.container{
+	width:100%;
+}
+
+.viewport.col-md-4 {
+	position:relative;
+	width:359px;
+	height:270px;
+	padding: auto;
+	background-color: transparent;
+	
+}
+
+.flexslider {
+	width:100%;
+	height:100%;
+	margin:0;
+	margin-bottom: 0;
+	padding-bottom:15px;
+	border:2px solid grey;
+	background-color: transparent!important;
+}
+.flex-control-nav {
+	bottom:-8px!important;
+}
+.contact{
+	text-align: right; 
+}
+
+.contact a:link {
+	color:#a40803;
+	text-decoration: none;
+}
+.contact a:hover {
+	color:darkblue;
+}
+
+.contact > p {
+	font-family: inherit "Helvetica , sans-serif, times new-roman";
+	margin-right: 10px!important;
+	margin-top: 0px;
+	font-size: 16px;
+}
+
+.contact > h2 {
+	font-family: inherit "Helvetica, sans-serif, times new-roman";
+	font-style: bold;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+
+.social {
+	background-color: #D6CBB7!important;
+	margin:0px;
+	padding: 10px!important;
+	border-radius:5px!important;
+	margin-top:0px!important; 
+	width: auto!important;
+	text-align: right!important;
+}
+
+.social a:link {
+	color: #a40803;
+	text-decoration: none;
+	font-size: 2em; 
+	width:auto;
+}
+
+.social a:visited {
+	color: #a40803;
+}
+.social a:hover {
+	color:darkblue;
+}
+
+.navbar {
+	border-radius: 5px;
+
+}
+
+.footer {
+	background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
+    background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
+	text-align: center;
+	text-justify: center;
+	color: lightgrey;
+	padding-top: 5px;
+	padding-bottom: 1px;
+}
+
